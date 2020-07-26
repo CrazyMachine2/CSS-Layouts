@@ -1,0 +1,29 @@
+.welcome-message .greeting {
+    margin-bottom: 1.5rem;
+}
+
+.welcome-message .greeting:last-child {
+    margin-bottom: 0;
+}
+
+.welcome-message .greeting.title {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+button.profile-button {
+    padding: 1.25rem;
+    min-width: 12rem;
+    font-weight: bold;
+    color: rgb(223, 21, 139);
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+
+button.profile-button:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 2px 2px 1rem rgb(187, 183, 183);
+}
+

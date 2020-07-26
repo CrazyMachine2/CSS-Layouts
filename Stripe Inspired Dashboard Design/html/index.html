@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Design</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <div class="logo"></div>
+
+            <ul class="nav-links">
+                <li class="nav-link">Dashboard</li>
+                <li class="nav-link">Calendar</li>
+                <li class="nav-link">Analytics</li>
+                <li class="nav-link profile"></li>
+            </ul>
+        </div>
+
+        <div class="welcome-section">
+
+            <div class="welcome-message">
+                <div class="greeting title">Hi Georgio,</div>
+                <div class="greeting sub-title">Hope you are in a good mood today.</div>
+            </div>
+
+            <div class="profile-button-wrapper">
+                <button class="profile-button">Georgio Giovani</button>
+            </div>
+
+        </div>
+
+        <div class="dashboard">
+
+            <div class="dashboard-item event-list">
+                <div class="events-wrapper transperant">
+                    <div class="events-top">
+                        <div class="today">Today</div>
+                        <div class="date">Friday, 12 June 2020</div>
+                    </div>
+
+                    <div class="events">
+                        <div class="event-wrapper active">
+                            <div class="event active">
+                                <div class="event-top">
+                                    <div class="hours">10:00 - 11:00</div>
+                                    <div class="participants"></div>
+                                </div>
+
+                                <div class="title">Ulasan Design App</div>
+                                <div class="description">This is sample description for the design event that will be on two rows</div>
+                            </div>
+                        </div>
+
+                        <div class="event-wrapper">
+                            <div class="event">
+                                <div class="event-top">
+                                    <div class="hours">12:00 - 13:00</div>
+                                    <div class="participants"></div>
+                                </div>
+
+                                <div class="title">Another event</div>
+                                <div class="description">This is sample description for the design event that will be on two rows</div>
+                            </div>
+                        </div>
+
+                        <div class="event-wrapper">
+                            <div class="event">
+                                <div class="event-top">
+                                    <div class="hours">15:00 - 16:00</div>
+                                    <div class="participants"></div>
+                                </div>
+
+                                <div class="title">Yet another event</div>
+                                <div class="description">This is sample description for the design event that will be on two rows</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-item selected-event">
+                <div class="selected-top">
+                    <div class="title">Ulsan Design App</div>
+                    <div class="participants">
+                        <div class="avatar"></div>
+                        <div class="avatar"></div>
+                        <div class="avatar"></div>
+                        <div class="avatar"></div>
+                    </div>
+                </div>
+
+                <div class="overview">
+                    <div class="event-details">
+                        <div class="hours"><i id="clock-icon" class="fas fa-clock"></i> <span>10:00 - 11:00</span></div>
+                        <div class="date"><i id="calendar-icon" class="fas fa-calendar-check"></i><span> Friday, 12 June 2020 </span></div>
+                    </div>
+                    <div class="event-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, reprehenderit animi eligendi at sunt non, est molestias officiis aut vero qui necessitatibus. Magni dolorum quibusdam officia quidem nobis ipsum odit.
+                        Exercitationem voluptas iusto voluptatibus repudiandae similique eaque provident, enim ipsa quas fugit, maxime, atque voluptates dicta porro voluptatum. Accusantium atque maiores voluptates natus repellendus sint rem a animi odit cumque.
+                        Suscipit cumque exercitationem veritatis repellat quisquam ex odio consequatur, repellendus, nihil labore, porro inventore harum. Et est, suscipit nisi minus qui rem architecto quae quasi perspiciatis fuga iusto! Natus, quam.
+                    </div>
+                    <button class="edit-button"><i id="edit-icon" class="fas fa-pen"></i></button>
+                </div>
+            </div>
+
+            <div class="dashboard-item utils">
+                <div class="utils-wrapper">
+                    <div class="calendar transperant">
+                        <div class="calendar-top">
+                            <div class="left-button"><i id="left-icon" class="fas fa-chevron-left"></i></div>
+                            <div class="today">June 2020</div>
+                            <div class="right-button"><i id="right-icon" class="fas fa-chevron-right"></i></div>
+                        </div>
+                        <div class="calendar-main">
+                            <div class="days-of-week">
+                                <div class="day-of-week">Sun</div>
+                                <div class="day-of-week">Mon</div>
+                                <div class="day-of-week">Tue</div>
+                                <div class="day-of-week">Wed</div>
+                                <div class="day-of-week">Thu</div>
+                                <div class="day-of-week">Fri</div>
+                                <div class="day-of-week">Sat</div>
+                            </div>
+                            <div class="week">
+                                <div class="day">1</div>
+                                <div class="day">2</div>
+                                <div class="day">3</div>
+                                <div class="day">4</div>
+                                <div class="day">5</div>
+                                <div class="day">6</div>
+                                <div class="day">7</div>
+                            </div>
+                            <div class="week">
+                                <div class="day">8</div>
+                                <div class="day">9</div>
+                                <div class="day">10</div>
+                                <div class="day">11</div>
+                                <div class="day">12</div>
+                                <div class="day">13</div>
+                                <div class="day">14</div>
+                            </div>
+                            <div class="week">
+                                <div class="day">15</div>
+                                <div class="day">16</div>
+                                <div class="day">17</div>
+                                <div class="day">18</div>
+                                <div class="day">19</div>
+                                <div class="day">20</div>
+                                <div class="day">21</div>
+                            </div>
+                            <div class="week">
+                                <div class="day">22</div>
+                                <div class="day">23</div>
+                                <div class="day">24</div>
+                                <div class="day">25</div>
+                                <div class="day">26</div>
+                                <div class="day">27</div>
+                                <div class="day">28</div>
+                            </div>
+                            <div class="week">
+                                <div class="day">29</div>
+                                <div class="day">30</div>
+                                <div class="day">31</div>
+                                <div class="day-next-month">1</div>
+                                <div class="day-next-month">2</div>
+                                <div class="day-next-month">3</div>
+                                <div class="day-next-month">4</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-chat">
+                        <div class="group-chat-top">
+                            <div class="title">Group Chat</div>
+                            <div class="add"><i id="plus-icon" class="fas fa-plus"></i></div>
+                        </div>
+
+                        <div class="chats">
+                            <div class="chat">
+                                <div class="chat-avatar">UD</div>
+                                <div class="chat-content">
+                                    <div class="chat-title">Ulasan Design App</div>
+                                    <div class="chat-participants">Test1 Test2 Test3</div>
+                                </div>
+                            </div>
+                            <div class="chat">
+                                <div class="chat-avatar">AE</div>
+                                <div class="chat-content">
+                                    <div class="chat-title">Another event</div>
+                                    <div class="chat-participants">Test1 Test2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

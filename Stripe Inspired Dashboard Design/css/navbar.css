@@ -1,0 +1,45 @@
+ul.nav-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: white;
+    color: black
+}
+
+.nav-link {
+    margin: 0 1.5rem;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.nav-link.profile {
+    width: 45px;
+    height: 45px;
+    background-color: darksalmon;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+
+
+
+
